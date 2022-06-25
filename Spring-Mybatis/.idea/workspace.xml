@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51030eac-4367-448c-a5b1-e7849e9116d6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-config" />
+        <option value="spring-beans.schema" />
+        <option value="mybatis-mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Multifunctionapplication\Advanced Files\apache-maven-3.8.2\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="F:\Multifunctionapplication\Advanced Files\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zzglIqcUCUsPHxspnGf3Q9iyXu" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.18333334" />
+    <property name="project.structure.side.proportion" value="0.32505643" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring-Mybatis\src\main\java\Tran_sale\Items\Item03" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring-Mybatis\src\main\resources\Tran_sale\Items\Item03" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring-Mybatis\src\main\java\Tran_sale\Items\Item02" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring-Mybatis\src\main\java\Tran_sale\Items" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring-Mybatis\src\main\resources\Tran_sale\Items\Item02" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring-Mybatis\src\main\resources\spring_mybatis" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Tran_sale.Items.Item02" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tran_sale.Items.Item03" />
+      <recent name="Tran_sale.Items.Item01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Test03.test01">
+    <configuration name="Test02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tran_sale.Items.Item02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tran_sale.Items.Item02" />
+      <option name="MAIN_CLASS_NAME" value="Tran_sale.Items.Item02.Test02" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test03.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tran_sale.Items.Item03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tran_sale.Items.Item03" />
+      <option name="MAIN_CLASS_NAME" value="Tran_sale.Items.Item03.Test03" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test03.test01" />
+        <item itemvalue="JUnit.Test02.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51030eac-4367-448c-a5b1-e7849e9116d6" name="Default Changelist" comment="" />
+      <created>1635156481107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635156481107</updated>
+      <workItem from="1635156482671" duration="14227000" />
+      <workItem from="1635347086604" duration="25973000" />
+      <workItem from="1635640848555" duration="8477000" />
+      <workItem from="1635666482720" duration="171000" />
+      <workItem from="1638504512660" duration="11843000" />
+      <workItem from="1638579526771" duration="10688000" />
+      <workItem from="1638606362334" duration="19000" />
+      <workItem from="1638666535905" duration="1000" />
+      <workItem from="1639304502066" duration="790000" />
+      <workItem from="1639560477705" duration="10000" />
+      <workItem from="1639785792512" duration="287000" />
+      <workItem from="1639786102063" duration="144000" />
+      <workItem from="1639790239080" duration="475000" />
+      <workItem from="1639790963343" duration="738000" />
+      <workItem from="1639791724354" duration="10000" />
+      <workItem from="1639793655157" duration="265000" />
+      <workItem from="1640567676442" duration="1444000" />
+      <workItem from="1640569146940" duration="4334000" />
+      <workItem from="1640579329310" duration="65000" />
+      <workItem from="1640579402884" duration="99000" />
+      <workItem from="1640579519585" duration="221000" />
+      <workItem from="1640579758301" duration="168000" />
+      <workItem from="1640859203049" duration="474000" />
+      <workItem from="1640863395422" duration="28000" />
+      <workItem from="1640863721578" duration="3249000" />
+      <workItem from="1641806712800" duration="15000" />
+      <workItem from="1642042320470" duration="74000" />
+      <workItem from="1642219869903" duration="276000" />
+      <workItem from="1651226267498" duration="1125000" />
+      <workItem from="1651367616521" duration="802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

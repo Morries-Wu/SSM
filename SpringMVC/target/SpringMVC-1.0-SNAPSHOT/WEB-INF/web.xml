@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+  <!--声明springmvc的核心对象
+      访问mymvc地址后,报错 文件没有找到,文件/WEB-INF/springmvc-servlet.xml
+      错误原因:
+      在Servlet的init()方法中,创建springmvc使用的容器对象webApplicationContext
+      webApplicationContext ctx=new ClassPathXmlAppliacationContext(配置文件);
+      配置文件的默认路径:/WEB-INF/ <servlet-name>-servlet.xml
+
+      DispatcherServlet作用:
+      1、在init()中创建springmvc的容器对象, WebApplicationContext
+      创建springmvc配置文件在的所有的Java对象,Java对象就是Controller对象
+      2、DispatcherServlet是一个servlet,能够接收请求
+  -->
+  <servlet>
+    <servlet-name>myweb</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!--自定义配置文件的位置-->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:springmvc.xml</param-value>
+    </init-param>
+    <!--表示服务器tomcat创建对象的顺序,是个整数值,大于等于零
+        数值越小,创建对象时间越早-->
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>myweb</servlet-name>
+    <!--url-pattern 作用:把一些请求交给指定的servlet处理
+        使用中央调度器(DispatcherServlet)
+        1、使用扩展名方式,格式  *.xxx,xxx是自定义的扩展名,例如 *.do,*.action
+           http://localhost:8080/SpringMVC/some.do
+
+        2、使用斜杆  "/",会导致中央调度器成为了默认的default servlet,需要处理静态资源和其他未映射的请求
+           默认中央调度器没有处理静态资源的控制器对象,所以静态资源都是404
+           如果项目中,中央调度器设置了"/",动态资源能访问,静态资源不能访问
+           需要处理静态资源的访问工作
+      -->
+    <!--<url-pattern>*.do</url-pattern>-->
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+
+
+  <!--声明过滤器,框架提供的,解决post请求中乱码的问题-->
+  <filter>
+    <filter-name>characterEncodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <!--项目使用的字符编码-->
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+    <!--强制请求对象(request)对象使用encoding的编码方式-->
+    <init-param>
+      <param-name>forceRequestEncoding</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <!--强制响应对象(response)对象使用encoding的编码方式-->
+    <init-param>
+      <param-name>forceResponseEncoding</param-name>
+      <param-value>true</param-value>
+    </init-param>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>characterEncodingFilter</filter-name>
+    <!--强制所有请求,先经过过滤器处理-->
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+
+
+</web-app>

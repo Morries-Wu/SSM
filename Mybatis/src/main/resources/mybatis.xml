@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--使用外部属性配置文件
+    resource:指定类路径下的某个属性配置文件-->
+    <properties resource="jdbc.properties"/>
+
+    <!--设置日志-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+    <!--声明别名-->
+    <typeAliases>
+    <!--第一种语法格式
+            type:Java类型的全限定名称(自定义类型)
+            alias:自定义别名
+        <typeAlias type="Morries_Wu.Bean.Student" alias="stu"/>
+        第二种方式
+        name:报名 mybatis会把这个包中所有类名作为别名(不用区分大小写)
+      -->
+        <package name="Morries_Wu.Bean"/>
+    </typeAliases>
+
+
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+    </plugins>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <!--配置数据源:创建Connection对象-->
+            <dataSource type="POOLED">
+                <!--driver:驱动的内容-->
+                <property name="driver" value="${jdbc.driver}"/>
+                <!--连接数据库的url:驱动的内容-->
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--
+        指定mapper文件的位置
+        指定其他mapper文件目的是找到其他文件的sql语句
+      -->
+    <mappers>
+        <!--使用mapper的resource属性指定mapper文件的路径
+            这个路径是从target/classes路径开始的
+
+            使用注意:
+                resource="mapper文件的路径,使用 / 分割路径"
+                一个mapper resource 指定一个mapper文件
+          -->
+        <!--
+            第一种方式,resource="mapper文件路径"
+            优点:文件清晰,加载文件是明确的,文件的位置比较灵活
+            缺点:文件比较多,代码量会比较大,管理难度大
+
+            第二种方式,使用<package>
+            name:包名,mapper文件所在的包名
+            特点:把这个包中所有mapper文件,一次加载。
+            使用要求:
+            1、mapper文件和dao接口在同一目录
+            2、mapper文件和dao接口名称完全一致
+        <package name="Morries_Wu.Dao"></package>-->
+        <mapper resource="Morries_Wu/Dao/StudentDao.xml"/>
+        <mapper resource="Morries_Wu/Dao/StudentDao02.xml"></mapper>
+    </mappers>
+
+</configuration>

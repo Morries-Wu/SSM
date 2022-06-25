@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--byName 自动注入
+    <bean id="school" class="bean03.School"  >
+        <property name="name" value="华南理工大学"></property>
+        <property name="address" value="华南理工大学烧烤摊"></property>
+    </bean>-->
+
+    <!--byType 自动注入-->
+    <bean id="myStudent" class="IOC.beans.bean03.Student" autowire="byType">
+        <property name="name" value="nosimin"></property>
+        <property name="age" value="21"></property>
+    </bean>
+
+    <!--声明School的子类-->
+    <bean id="primarySchool" class="IOC.beans.bean03.PrimarySchool">
+        <property name="name" value="华南理工大学附属中学"></property>
+        <property name="address" value="在我家楼下"></property>
+    </bean>
+
+
+</beans>

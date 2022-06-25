@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f447652a-5bfd-4438-ae19-5b752dfeb7e7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Multifunctionapplication\Advanced Files\apache-maven-3.8.2\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="F:\Multifunctionapplication\Advanced Files\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zhr4nszVaDfnug4lKPrQRNIFe0" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring-Mybatis" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.18333334" />
+    <property name="project.structure.side.proportion" value="0.10131712" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\java\AOP\Items\item06" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\java\AOP\Items\item05" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\java\AOP\Items\item04" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\java\AOP\Items\item03" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\java\AOP\Items" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\IOC\beans" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\IOC\item01" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\AOP\items\item06" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\AOP\items\item04" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\AOP\items\item01" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="beans" />
+      <recent name="Items.Item01" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AOP.Items.item05" />
+      <recent name="AOP.Items.item04" />
+      <recent name="AOP.Items.item03" />
+      <recent name="AOP.Items.item02" />
+      <recent name="items.item03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Test01.test01 (4)">
+    <configuration name="Test01.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOP.Items.item02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AOP.Items.item02" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Items.item02.Test01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test01 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOP.Items.item03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AOP.Items.item03" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Items.item03.Test01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test01 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOP.Items.item04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AOP.Items.item04" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Items.item04.Test01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test01 (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOP.Items.item05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AOP.Items.item05" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Items.item05.Test01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOP.Items.item01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AOP.Items.item01" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Items.item01.Test01" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test01.test01 (4)" />
+        <item itemvalue="JUnit.Test01.test01 (3)" />
+        <item itemvalue="JUnit.Test01.test01 (2)" />
+        <item itemvalue="JUnit.Test01.test01 (1)" />
+        <item itemvalue="JUnit.Test01.test02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f447652a-5bfd-4438-ae19-5b752dfeb7e7" name="Default Changelist" comment="" />
+      <created>1634610974157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634610974157</updated>
+      <workItem from="1634610975621" duration="8502000" />
+      <workItem from="1634637984768" duration="1000000" />
+      <workItem from="1634639012888" duration="19755000" />
+      <workItem from="1634779667172" duration="11778000" />
+      <workItem from="1634802519723" duration="23000" />
+      <workItem from="1634802558703" duration="5892000" />
+      <workItem from="1634808829582" duration="139000" />
+      <workItem from="1634808989157" duration="308000" />
+      <workItem from="1634809313397" duration="29000" />
+      <workItem from="1634809359142" duration="2185000" />
+      <workItem from="1634951880178" duration="4115000" />
+      <workItem from="1634956084030" duration="617000" />
+      <workItem from="1634956740800" duration="150000" />
+      <workItem from="1634956942226" duration="14174000" />
+      <workItem from="1635042306605" duration="30593000" />
+      <workItem from="1635156299979" duration="185000" />
+      <workItem from="1635298958007" duration="6000" />
+      <workItem from="1635315666118" duration="51000" />
+      <workItem from="1635315870303" duration="4545000" />
+      <workItem from="1635347463588" duration="7851000" />
+      <workItem from="1635493402938" duration="1184000" />
+      <workItem from="1635500050851" duration="16410000" />
+      <workItem from="1635646189320" duration="611000" />
+      <workItem from="1635672269133" duration="1631000" />
+      <workItem from="1635728534937" duration="6755000" />
+      <workItem from="1636789978136" duration="63000" />
+      <workItem from="1636790277626" duration="11000" />
+      <workItem from="1637654985147" duration="4000" />
+      <workItem from="1638410463228" duration="9709000" />
+      <workItem from="1638434166757" duration="18496000" />
+      <workItem from="1638520873285" duration="692000" />
+      <workItem from="1638524844145" duration="86000" />
+      <workItem from="1638524947068" duration="918000" />
+      <workItem from="1638603257066" duration="713000" />
+      <workItem from="1638611437061" duration="165000" />
+      <workItem from="1638611636205" duration="1397000" />
+      <workItem from="1638665195228" duration="7000" />
+      <workItem from="1638669273706" duration="27000" />
+      <workItem from="1639560334520" duration="38000" />
+      <workItem from="1639562069777" duration="60000" />
+      <workItem from="1639563044834" duration="432000" />
+      <workItem from="1639791919561" duration="387000" />
+      <workItem from="1639794881486" duration="855000" />
+      <workItem from="1639874304448" duration="1261000" />
+      <workItem from="1640072051934" duration="15671000" />
+      <workItem from="1649216019545" duration="1318000" />
+      <workItem from="1649501689314" duration="24000" />
+      <workItem from="1649502350592" duration="41000" />
+      <workItem from="1650966705353" duration="23191000" />
+      <workItem from="1651113407002" duration="1179000" />
+      <workItem from="1651191899641" duration="10167000" />
+      <workItem from="1651832082626" duration="1647000" />
+      <workItem from="1654504998873" duration="1316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

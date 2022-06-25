@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--school相关类声明-->
+    <bean id="school" class="IOC.beans.bean04.School" >
+        <property name="name" value="中山大学"></property>
+        <property name="address" value="中山大学烧烤摊"></property>
+    </bean>
+
+</beans>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Morries_Wu.Dao.StudentDao02">
+    <!--使用insert|update|delete|select标签写sql-->
+
+    <!--定义代码片段-->
+    <sql id="selectStudent">select * from student</sql>
+
+    <sql id="selectFildList">id,name,email</sql>
+
+
+    <!--使用resultMap定义列和属性的关系-->
+    <!--定义resultMap
+        id:给resultMap的映射关系起个名称,唯一值
+        type:Java类型的全限定名称
+      -->
+    <resultMap id="custmMap" type="Morries_Wu.Bean.Custom">
+        <!--定义列名和属性名的对应-->
+        <!--主键类型使用id标签-->
+        <id column="id" property="cid"/>
+        <!--非主键类型使用result标签-->
+        <result column="name" property="cname"/>
+        <!--列名和属性名相同不用定义-->
+    </resultMap>
+
+    <!--使用resultMap属性,指定映射关系的id
+        resultMap和resultType,不能同时使用,二选一
+      -->
+    <!--
+    <select id="selectById" resultMap="custmMap">
+         select * from student where id=#{stuid}
+    </select>
+     -->
+
+    <!--使用列名别名,解决列名和属性名不同的问题-->
+    <select id="selectById" resultType="Morries_Wu.Bean.Custom">
+        select id cid,name cname,email,age from student where id=#{stuid}
+    </select>
+
+
+    <!--第一种方式-->
+    <select id="selectLikeOne" resultType="Morries_Wu.Bean.Student">
+        select * from student where name like #{name}
+    </select>
+
+    <!--第二种方式-->
+    <select id="selectLikeTwo" resultType="Morries_Wu.Bean.Student">
+        select * from student where name like "%" #{name} "%"
+    </select>
+
+    <!--if标签的使用
+        test:使用对象属性值作为条件
+            -->
+    <select id="selectIf" resultType="Morries_Wu.Bean.Student">
+        select * from student where id=-1
+        <if test="name!=null and name!=''">or name=#{name}</if>
+        <if test="age>0">or age &lt; #{age}</if>
+    </select>
+
+    <!--where-->
+    <select id="selectWhere" resultType="Morries_Wu.Bean.Student">
+        select * from student
+        <where>
+            <if test="name!=null and name!=''">or name=#{name}</if>
+            <if test="age>0">or age=#{age}</if>
+        </where>
+    </select>
+
+    <!--foreach第一种方式,循环简单类型的list-->
+    <select id="selectForeachOne" resultType="Morries_Wu.Bean.Student">
+        <include refid="selectStudent"/>
+        <if test="list!=null and list.size>0">
+            where id in
+            <foreach collection="list" open="(" close=")"   separator="," item="myid">
+                #{myid}
+            </foreach>
+        </if>
+    </select>
+
+    <!--foreach第二种方式,循环List<Student>-->
+    <select id="selectForeachTwo" resultType="Morries_Wu.Bean.Student">
+        select * from student
+        <if test="list!=null and list.size>0">
+            where id in
+            <foreach collection="list" open="(" close=")" separator="," item="Student">
+                    #{Student.id}
+            </foreach>
+        </if>
+    </select>
+
+    <select id="selectAllStudents" resultType="Morries_Wu.Bean.Student">
+        select * from student order by id
+    </select>
+
+
+
+
+
+</mapper>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--student相关类声明-->
+    <bean id="myStudent" class="IOC.beans.bean04.Student" autowire="byType">
+        <property name="name" value="Morries"></property>
+        <property name="age" value="18"></property>
+    </bean>
+
+</beans>

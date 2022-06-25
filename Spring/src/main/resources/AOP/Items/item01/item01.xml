@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--声明目标对象-->
+    <bean id="someService" class="AOP.Items.item01.sevice.serviceImpl.SomeServiceImpl"/>
+
+    <!--声明切面类对象-->
+    <bean id="myAspect" class="AOP.Items.item01.handle.MyAspect"/>
+
+    <!--声明自动代理生成器:目的是创建目标对象代理(ServiceProxy)
+        调用aspectj框架中的功能,寻找spring容器中的所有目标对象
+        把每个目标对象加入到切入类中的功能,生成代理
+        这个代理对象是修改的内存中的目标对象,这个目标对象时代理对象(ServiceProxy)
+      -->
+    <aop:aspectj-autoproxy/>
+
+</beans>

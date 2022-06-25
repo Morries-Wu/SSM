@@ -1,0 +1,19 @@
+package AOP.Items.item02.sevice.serviceImpl;
+
+import AOP.Items.item02.sevice.SomeService;
+
+public class SomeServiceImpl implements SomeService {
+
+    @Override
+    public void doSome(String name, int age) {
+        System.out.println("业务方法doSome(),创建商品的订单");
+    }
+
+    @Override
+    public String doOther(String name, int age) {
+        System.out.println("执行业务方法doOther,处理库存");
+        return "abcd";
+    }
+
+
+}

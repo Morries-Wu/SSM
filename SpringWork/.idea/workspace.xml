@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringWork:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f447652a-5bfd-4438-ae19-5b752dfeb7e7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="mybatis-mapper" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Multifunctionapplication\Advanced Files\apache-maven-3.8.2\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="F:\Multifunctionapplication\Advanced Files\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zhr4nszVaDfnug4lKPrQRNIFe0" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.18333334" />
+    <property name="project.structure.side.proportion" value="0.32108316" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Items.item02.Service" />
+      <recent name="Service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\SSM\SpringWork\src\main\webapp\js" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\SSM\SpringWork\src\main\webapp" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\java\AOP\Items\item06" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\java\AOP\Items\item05" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\java\AOP\Items\item04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\IOC\beans" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\IOC\item01" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\AOP\items\item06" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\AOP\items\item04" />
+      <recent name="F:\Multifunctionapplication\Advanced Files\IntelliJ IDEA Project\Spring\src\main\resources\AOP\items\item01" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="beans" />
+      <recent name="Items.Item01" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AOP.Items.item05" />
+      <recent name="AOP.Items.item04" />
+      <recent name="AOP.Items.item03" />
+      <recent name="AOP.Items.item02" />
+      <recent name="items.item03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.54">
+    <configuration name="MyTest04.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOC.MyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IOC.MyTest" />
+      <option name="MAIN_CLASS_NAME" value="IOC.MyTest.MyTest04" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOP.Items.item02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AOP.Items.item02" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Items.item02.Test01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOP.Items.item03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AOP.Items.item03" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Items.item03.Test01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOP.Items.item01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AOP.Items.item01" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Items.item01.Test01" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOC.Item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IOC.Item" />
+      <option name="MAIN_CLASS_NAME" value="IOC.Item.Test02" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.54" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringWork/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SpringWork:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringWork" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ee10febd-c8f0-4978-9ae4-7b370eaeb9f0" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57867" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringWork:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Test01.test01" />
+      <item itemvalue="JUnit.MyTest04.test01" />
+      <item itemvalue="JUnit.Test01.test01 (1)" />
+      <item itemvalue="JUnit.Test01.test02" />
+      <item itemvalue="JUnit.Test02.test01" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.54" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test01.test01 (1)" />
+        <item itemvalue="JUnit.Test01.test02" />
+        <item itemvalue="JUnit.Test02.test01" />
+        <item itemvalue="JUnit.MyTest04.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f447652a-5bfd-4438-ae19-5b752dfeb7e7" name="Default Changelist" comment="" />
+      <created>1634610974157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634610974157</updated>
+      <workItem from="1634610975621" duration="8502000" />
+      <workItem from="1634637984768" duration="1000000" />
+      <workItem from="1634639012888" duration="19755000" />
+      <workItem from="1634779667172" duration="11778000" />
+      <workItem from="1634802519723" duration="23000" />
+      <workItem from="1634802558703" duration="5892000" />
+      <workItem from="1634808829582" duration="139000" />
+      <workItem from="1634808989157" duration="308000" />
+      <workItem from="1634809313397" duration="29000" />
+      <workItem from="1634809359142" duration="2185000" />
+      <workItem from="1634951880178" duration="4115000" />
+      <workItem from="1634956084030" duration="617000" />
+      <workItem from="1634956740800" duration="150000" />
+      <workItem from="1634956942226" duration="14174000" />
+      <workItem from="1635042306605" duration="30593000" />
+      <workItem from="1635156299979" duration="185000" />
+      <workItem from="1635298958007" duration="6000" />
+      <workItem from="1635315666118" duration="51000" />
+      <workItem from="1635315870303" duration="4545000" />
+      <workItem from="1635347463588" duration="7851000" />
+      <workItem from="1635493402938" duration="1184000" />
+      <workItem from="1635500050851" duration="16410000" />
+      <workItem from="1635646189320" duration="611000" />
+      <workItem from="1635672269133" duration="1631000" />
+      <workItem from="1635728534937" duration="6755000" />
+      <workItem from="1636789978136" duration="63000" />
+      <workItem from="1636790277626" duration="11000" />
+      <workItem from="1637654985147" duration="4000" />
+      <workItem from="1638410463228" duration="9709000" />
+      <workItem from="1638434166757" duration="18496000" />
+      <workItem from="1638520873285" duration="692000" />
+      <workItem from="1638524844145" duration="86000" />
+      <workItem from="1638524947068" duration="918000" />
+      <workItem from="1638603257066" duration="713000" />
+      <workItem from="1638611437061" duration="165000" />
+      <workItem from="1638611636205" duration="1397000" />
+      <workItem from="1638665195228" duration="7000" />
+      <workItem from="1638669273706" duration="27000" />
+      <workItem from="1639560334520" duration="38000" />
+      <workItem from="1639562069777" duration="60000" />
+      <workItem from="1639563044834" duration="432000" />
+      <workItem from="1639809848273" duration="5557000" />
+      <workItem from="1639835742375" duration="177000" />
+      <workItem from="1639835994658" duration="240000" />
+      <workItem from="1639836252944" duration="1283000" />
+      <workItem from="1639897079708" duration="15273000" />
+      <workItem from="1639962118765" duration="4477000" />
+      <workItem from="1640074999426" duration="2643000" />
+      <workItem from="1640826436311" duration="6779000" />
+      <workItem from="1640834479567" duration="1270000" />
+      <workItem from="1640835778342" duration="59000" />
+      <workItem from="1640837355327" duration="1000" />
+      <workItem from="1640857244777" duration="216000" />
+      <workItem from="1640858035005" duration="16000" />
+      <workItem from="1640858974757" duration="701000" />
+      <workItem from="1640860302207" duration="3162000" />
+      <workItem from="1640871501493" duration="65000" />
+      <workItem from="1640925770821" duration="2359000" />
+      <workItem from="1640937834734" duration="388000" />
+      <workItem from="1640938290988" duration="4634000" />
+      <workItem from="1640957051875" duration="471000" />
+      <workItem from="1641395840166" duration="253000" />
+      <workItem from="1641445123691" duration="41000" />
+      <workItem from="1641526717143" duration="9000" />
+      <workItem from="1641802795480" duration="391000" />
+      <workItem from="1641803244714" duration="322000" />
+      <workItem from="1641805678513" duration="20000" />
+      <workItem from="1641805761343" duration="4270000" />
+      <workItem from="1641811479172" duration="5880000" />
+      <workItem from="1641819638248" duration="724000" />
+      <workItem from="1642042719084" duration="594000" />
+      <workItem from="1642053193889" duration="178000" />
+      <workItem from="1642063824605" duration="636000" />
+      <workItem from="1642081378935" duration="263000" />
+      <workItem from="1642087044535" duration="819000" />
+      <workItem from="1645782273175" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

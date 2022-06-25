@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--当前是总的文件,目的是包含其他的多个配置文件,一般不声明bean
+            语法:
+            总的文件(xml)
+            <import resource="classpath:其他文件的路径"/>
+            classpath:表示类路径,类文件所在目录,spring通过类路径去加载配置文件
+
+       <import resource="classpath:IOC/item01/spring-student.xml"></import>
+    <import resource="classpath:IOC/item01/spring-school.xml"></import>-->
+
+
+    <!--包含关系的配置文件,可使用通配符(*:表示任意字符)
+        注意:总的文件名称,不能包含在通配符范围内
+        (beans04.xml不能叫做spring-beans04.xml)
+      -->
+    <import resource="classpath:IOC/item01/spring-*.xml"></import>
+</beans>

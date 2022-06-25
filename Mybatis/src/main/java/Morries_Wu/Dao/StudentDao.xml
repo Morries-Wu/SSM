@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Morries_Wu.Dao.StudentDao">
+
+    <!--<select id="selectBlog" resultType="Blog">
+        select * from Blog where id = #{id}
+   </select>-->
+
+    <!--
+        查询一个学生
+        <select>:表示查询操作,里面是select语句
+        id:要执行的sql语句的唯一标识,是一个自定义字符串
+            推荐使用Dao接口中的名称
+        resultType:告诉mybatis,执行sql语句,把数据赋值给那个类型的Java对象
+            resultType的值现在使用的Java对象的全限定名称
+        #{studentId}:占位符,表示从Java程序中传入过来的数据
+
+    -->
+    <select id="selectById"  parameterType="int" resultType="Student">
+        select id,name,email,age from student where id = #{studentId}
+    </select>
+
+    <select id="selectStudents" resultType="Morries_Wu.Bean.Student">
+        select id,name,email,age from student
+    </select>
+
+    <select id="selectByEmail" resultType="Morries_Wu.Bean.Student">
+        select id,name,email,age from student where email=#{studentEmail}
+    </select>
+
+
+    <!--
+        多个简单类型的参数
+        当使用了@Param命名后,例如@Param("myname")
+        在mapper中,使用#{命名的参数},例如#{myname}
+        -->
+    <select id="selectByNameOrAge" resultType="Morries_Wu.Bean.Student">
+        select * from student where name=#{myname} or age=#{myage}
+    </select>
+
+    <!--
+        添加insert
+        insert into student values(1003,"李春","li@qq.com",26)
+        如果传入给mybatis是一个Java对象,使用#{属性名}获取属性的值
+        属性值放到#{}占位符位置,mybatis执行此属性 对应的getXXX().
+        例如#{id},执行getI()
+      -->
+    <insert id="insertStudent">
+        insert into student values(#{id},#{name},#{email},#{age})
+    </insert>
+
+    <select id="selectByObject" resultType="Morries_Wu.Bean.Student">
+        select * from student where name=#{name} or age=#{age}
+    </select>
+
+
+    <select id="selectByQueryParam" resultType="Morries_Wu.Bean.Student">
+        select * from student where name=#{p1} or age=#{p2}
+    </select>
+
+    <!--使用位置获取参数值,Dao接口方法是多个简单类型的参数
+        语法:#{arg0},#{arg1}........
+      -->
+    <select id="selectByPosition" resultType="Morries_Wu.Bean.Student">
+        select * from student where name=#{arg0} or age=#{arg1}
+    </select>
+
+    <!--使用Map传递参数,在mapper文件中,获取map值,是通过key获取的,语法:#{Key}-->
+    <select id="selectStudentByMap" resultType="Morries_Wu.Bean.Student">
+        select * from student where name=#{myname} or age=#{myage}
+    </select>
+
+    <!--更新-->
+    <update id="updateStudent">
+       update student set name=#{name},email=#{email} where id=#{id}
+    </update>
+
+    <select id="queryStudent" resultType="Morries_Wu.Bean.Student">
+        select * from student where name=${myname}
+    </select>
+
+    <!--id列排序-->
+    <select id="queryStudentOrById" resultType="Morries_Wu.Bean.Student">
+        select * from student order by id
+    </select>
+
+    <select id="queryStudentOrByName" resultType="Morries_Wu.Bean.Student">
+        select * from student order by name
+    </select>
+
+
+    <select id="queryStudentOrByColName" resultType="Morries_Wu.Bean.Student">
+        select * from student order by ${colName}
+    </select>
+
+    <select id="countStudent" resultType="java.lang.Integer">
+        select count(*) from student
+    </select>
+
+    <select id="selectMap" resultType="java.util.HashMap">
+        select * from student where id!=#{stuid}
+    </select>
+
+</mapper>
+
+
+<!--
+    1、约束文件
+    http://mybatis.org/dtd/mybatis-3-mapper.dtd
+    约束文件作用:定义和限制当前文件中可以使用的标签和属性,以及标签出现的顺序
+
+    2、mapper是根标签
+    namespace:命名空间,必须有值,不能为空。唯一值
+              推荐使用Dao接口的全限定名称。
+    作用:参与识别sql语句的作用
+
+    3、在mapper里面可以写<insert>|<update>|<delete>|<select>等标签
+    <insert>里面是insert语句,表示执行的insert操作
+    <update>里面是update语句,表示执行的update操作
+    <delete>里面是delete语句,表示执行的delete操作
+    <select>里面是select语句,表示执行的select操作
+-->
+
+
+
